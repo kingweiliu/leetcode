@@ -5,11 +5,11 @@ class Solution {
 public:
     bool isPalindrome(int x) {
         int ans = 0;
-        if (x < 0)
-        	return false;
+        
         if (x == 0){
         	return true;
-        }
+        } else if (x % 10 == 0)
+        	return false;
 
         while (x >= ans) {
         	if (ans == x)

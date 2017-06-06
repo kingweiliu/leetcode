@@ -14,9 +14,6 @@ using std::vector;
 问题3.  刚开始用的是map， 对于一个值在不同位置出现多次的问题不能解决；
 问题4. 	数组定义  int a[] = { 1, 2, 3, 4};
 
-
-
-
 */
 
 class Solution {
